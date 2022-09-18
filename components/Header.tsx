@@ -30,6 +30,11 @@ export default function Header({ }: Props) {
                 />
 
                 <SocialIcon
+                    url='https://ozyurekegemen.medium.com/'
+                    fgColor='gray'
+                    bgColor='transparent' />
+
+                <SocialIcon
                     url="https://github.com/egemenozyurek"
                     fgColor='gray'
                     bgColor='transparent'
@@ -62,7 +67,7 @@ export default function Header({ }: Props) {
                     network='email'
                     fgColor='gray'
                     bgColor='transparent' />
-                <p className='uppercase hidden md:inline-flex text-sm text-gray-400'>Get in touch !</p>
+                <p className='font-comfortaa uppercase hidden md:inline-flex text-sm text-gray-400'>Get in touch !</p>
             </motion.div>
         </header>
     )
