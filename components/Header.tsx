@@ -61,13 +61,13 @@ export default function Header({ }: Props) {
                 transition={{
                     duration: 1.5,
                 }}
-                className='flex flex-row items-center text-gray-300 cursor-pointer'>
+                className='flex flex-row items-center text-gray-300 cursor-pointer font-comfortaa '>
                 <SocialIcon
                     className='cursor-pointer'
                     network='email'
                     fgColor='gray'
                     bgColor='transparent' />
-                <p className='font-comfortaa uppercase hidden md:inline-flex text-sm text-gray-400'>Get in touch !</p>
+                <p className='uppercase hidden md:inline-flex text-sm text-gray-400'>Get in touch !</p>
             </motion.div>
         </header>
     )

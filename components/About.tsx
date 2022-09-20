@@ -28,8 +28,8 @@ function About({ }: Props) {
                     opacity: 1
                 }}
                 viewport={{ once: true }}
-                src='Screenshot_20220918_160331.jpg' alt=''
-                className='mb-30 md:mb-0 flex-shrink-0 w-46 h-36 rounded-full object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[500px] xl:h-[600px]'
+                src='yRWIBEkc_400x400.jpg' alt=''
+                className='mb-30 md:mb-0 flex-shrink-0 w-36 h-36 rounded-full object-cover md:rounded-lg md:w-14 md:h-35 xl:w-[400px] xl:h-[500px]'
             />
             <div className='space-y-10 px-0 md:px-10'>
                 <h4 className='text-4xl font-comfortaa font-semibold'>Here is a <span className='underline decoration-[#21F8F6]/50'>little</span> background</h4>
@@ -39,6 +39,7 @@ function About({ }: Props) {
                     I’m currently learning test automation and frontend development. 📚
                     I graduated from Hacettepe University Electronic Technology.🎓
                     I developed myself in terms of research, self-motivation, entrepreneurship and acquiring different abilities. 🌱
+                    Thanks to the advice and guidance of my teachers at university, my interest and curiosity in this field has increased and I am doing everything to improve myself.
                     Who knows, maybe I can bring together the electronic tech and software world in the future and develop software that is effective for our world and environment and will contribute positively to living things and nature in this regard. ✨
                     When I was in the electronic technologies department, all of our projects and assignments were about coding and designing. Since I had an interest in software before.🧑🏻‍💻 Now, I want to follow my dreams and become a developer.🎈
                     Thanks for your interest,
