@@ -6,6 +6,8 @@ import ContactMe from '../components/ContactMe'
 import Header from '../components/Header'
 import Hero from '../components/Hero'
 import Projects from '../components/Projects'
+import Skills from '../components/Skills'
+import WorkExperience from '../components/WorkExperience'
 import { PageInfo, Project, Socials } from '../typing'
 import { fetchPageInfo } from '../utils/fetchPageInfo'
 import { fetchProjects } from '../utils/fetchProjects'
@@ -24,6 +26,7 @@ const Home = ({ pageInfo, socials, projects }: Props) => {
         <title>Egemen's Portfolio</title>
         <meta name="description" content="Let's meet" />
         <link className='rounded-full' rel="icon" href="/myicon.jpg" />
+        <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="KZzUD1V1K5" data-description="Support me on Buy me a coffee!" data-message="Thank you so much for your time. Cheers !" data-color="#21F8F6" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
       </Head>
 
       <Header socials={socials}/>
@@ -34,6 +37,14 @@ const Home = ({ pageInfo, socials, projects }: Props) => {
 
       <section id='about' className='snap-center'>
         <About pageInfo={pageInfo}/>
+      </section>
+
+      <section id='experience'  className='snap-center'>
+        <WorkExperience />
+      </section>
+
+      <section id='skills' className='snap-start'>
+        <Skills />
       </section>
 
       <section  id='projects' className='snap-start'>

@@ -35,6 +35,9 @@ export default function Hero({ pageInfo }: Props) {
                     <Link href="#about">
                         <button className='font-comfortaa heroButton'>About</button>
                     </Link>
+                    <Link href="#experience">
+                        <button className='font-comfortaa heroButton'>Experience</button>
+                    </Link>
                     <Link href="#skills">
                         <button className='font-comfortaa heroButton'>Skills</button>
                     </Link>

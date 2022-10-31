@@ -1,5 +1,3 @@
-import { type } from "os";
-
 export default {
   name: 'project',
   title: 'Project',
@@ -8,7 +6,7 @@ export default {
     {
       name: "title",
       title: "Name",
-      description: "string",
+      description: "Title of the project",
       type: "string"
     },
     {
@@ -21,25 +19,19 @@ export default {
     },
     {
       name: "Summary",
-      title: "PhoneNumber",
+      title: "Summary",
       type: "text",
     },
     {
-      name: "technologie",
+      name: "technologies",
       title: "Technologies",
       type: "array",
-      of: [{ type: "reference", to: { type: "project" } }]
+      of: [{ type: "reference", to: { type: "skill" } }]
     },
     {
-      name: "address",
-      title: "Address",
-      type: "string",
+      name: "LinkToBuild",
+      title: "LinkToBuild",
+      type: "url",
     },
-    {
-      name: "socials",
-      title: "Socials",
-      type: "array",
-      of: [{ type: "reference", to: { type: "social" } }]
-    }
   ],
 }

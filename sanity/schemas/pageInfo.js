@@ -1,5 +1,3 @@
-import { type } from "os";
-
 export default {
   name: 'pageInfo',
   title: 'PageInfo',
@@ -22,6 +20,14 @@ export default {
       name: "backgroundInformation",
       title: "Background Information",
       type:"text"
+    },
+    {
+      name: "profilePic",
+      title: "ProfilePic",
+      type: "image",
+      options: {
+        hotspot: true
+      }
     },
     {
       name: "phoneNumber",
