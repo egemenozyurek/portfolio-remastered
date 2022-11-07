@@ -32,11 +32,11 @@ function About({ pageInfo }: Props) {
                     opacity: 1
                 }}
                 viewport={{ once: true }}
-                src={urlFor(pageInfo?.heroImage).url()} alt=''
+                src={urlFor(pageInfo?.profilePic).url()} alt=''
                 className='mb-30 md:mb-0 flex-shrink-0 w-36 h-36 rounded-full object-cover md:rounded-lg md:w-14 md:h-35 xl:w-[400px] xl:h-[500px]'
             />
             <div className='space-y-10 px-0 md:px-10'>
-                <h4 className='text-4xl font-comfortaa font-semibold'>Here is a <span className='underline decoration-[#21F8F6]/50'>little</span> background</h4>
+                <h4 className='text-4xl font-comfortaa font-semibold'>Here is a <span className='underline decoration-[#21F8F6]/50'>little</span>{" "} background</h4>
                 <p className='font-comfortaa text-md text-base'>{pageInfo?.backgroundInformation}</p>
             </div>
         </motion.div>
